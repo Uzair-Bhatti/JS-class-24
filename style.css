@@ -1,0 +1,83 @@
+.container {
+    margin: 0 auto;
+    font-family: 'Boogaloo', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18%;
+    height: 10vh;
+    background-color: #918e8d;
+}
+
+h1 {
+    padding-right: 10px;
+    color: rgb(25, 25, 26);
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+#addBtn {
+    margin-left: 3px;
+    background-color: #aac0fc;
+    color: rgb(26, 24, 24);
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 6px 0px;
+}
+
+#todoInput {
+    font-size: 20px;
+}
+
+#saveBtn {
+    margin-left: 3px;
+    background-color: #aac0fc;
+    color: rgb(26, 24, 24);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#deleteAllBtn {
+    margin-left: 3px;
+    background-color: #aac0fc;
+    color: rgb(26, 24, 24);
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.bg-red {
+    display: flex;
+    align-items: center;
+    background-color: #a10606;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+}
+    
+.bg-green {
+    display: flex;
+    align-items: center;
+    background-color: #64f584;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px 20px;
+}
